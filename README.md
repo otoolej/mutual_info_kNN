@@ -1,10 +1,10 @@
 # Mutual Information (Matlab code)
 
 Calculate the mutual information using a nearest-neighbours method for both the continuous
-versus continuous variable [1](#references) and for the continious versus discrete (binary,
-categorical) variable [2](#references).
+versus continuous variable ([Kraskov et al. 2004](#references)) and for the continious versus discrete (binary,
+categorical) variable ([Ross 2014](#references)).
 
-For full details, see references [1, 2](#references).
+For full details, see references ([Kraskov et al. 2004, Ross 2014](#references)).
 
 Use `knnsearch` from the statistics toolbox but replaces `rangesearch` with specific code
 for variable distance. Not using `rangesearch` computes a few orders of magnitude faster.
